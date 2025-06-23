@@ -6,7 +6,7 @@ const MainNavbar = () => {
     <Navbar bg="primary" variant="dark" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          Wayanadu Government Medical college{" "}
+          Wayanad Government Medical college{" "}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
