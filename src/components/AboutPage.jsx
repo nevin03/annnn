@@ -37,7 +37,7 @@ const AboutPage = () => {
           ref={textRef}
           className={`fade-slide-up ${visible ? "visible" : ""}`}
         >
-          <h2 className="text-primary">GOVERNMENT MEDICAL COLLEGE, WAYANADU</h2>
+          <h2 className="text-primary">GOVERNMENT MEDICAL COLLEGE, WAYANAD</h2>
           <p>
             Wayanadu Government Medical College is committed to providing
             world-class medical education, innovative research, and exceptional
