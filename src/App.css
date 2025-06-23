@@ -1,0 +1,58 @@
+/* Global Carousel Styles */
+.carousel-image-wrapper {
+  position: relative;
+}
+
+.carousel-image-wrapper img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-image-wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* Dark layer */
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+
+/* Global scroll animation */
+.fade-slide-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-in-out;
+}
+
+.fade-slide-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.news-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* footer section */
+
+footer ul li {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
